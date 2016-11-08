@@ -3,15 +3,15 @@
 $(document).on("pagecreate","#pageone",function(){
   
   	$('#tapholdtext').on("taphold",function(){
-    	$(this).hide();
+    	$(this).scrollLeft();
  	});                       
 
 	$('#taptext').on("tap",function(){
-    	alert("Stop tapping!");
+    	alert("LOL!");
  	}); 
 
 	$('#swipetext').on("swipeleft",function(){
-    	$(this).css('color', 'green');
+    	$(this).css('color', 'blue');
   	});   
 
 
