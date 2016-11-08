@@ -3,7 +3,7 @@
 $(document).on("pagecreate","#pageone",function(){
   
   	$('#tapholdtext').on("taphold",function(){
-    	$(this).scrollLeft();
+    	$(this).animate();
  	});                       
 
 	$('#taptext').on("tap",function(){
